@@ -1,4 +1,3 @@
-import { X } from "@mui/icons-material";
 import { Box } from "@mui/material";
 import React, { lazy, Suspense } from "react";
 
@@ -10,7 +9,7 @@ const Home = () => {
     <>
       <Suspense fallback={<div>Loading...</div>}>
         <Box
-          height={300}
+          height={{ xs: 450, md: 600 }}
           m={5}
           mt={0}
           mr={0}
@@ -22,7 +21,7 @@ const Home = () => {
         >
           <Box
             sx={{
-              transform: "rotate(-90deg) Translate(-140px, 120px)",
+              transform: "rotate(-90deg) Translate(-10px, 250px)",
               fontSize: "4rem",
               fontWeight: "bolder",
               letterSpacing: "0.05rem",

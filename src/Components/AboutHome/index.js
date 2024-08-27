@@ -125,9 +125,9 @@ const AboutSection = () => {
                 <Typography variant="body1">
                   Whether it’s imaginative experiential, impactful sponsorship
                   activation or effective product trial, we work with global
-                  brands and market challengers alike – including Just Eat, BMW,
-                  cinch, Ooni and Under Armour – to create memorable moments
-                  that deliver business results.
+                  brands and market challengers alike – including Baskin Robins,
+                  VIVO, Adani, PHILIPS and Under Armour – to create memorable
+                  moments that deliver business results.
                 </Typography>
               </Box>
             </Box>

@@ -7,6 +7,7 @@ import Work from "../../Components/work";
 const HeroSection = lazy(() => import("../../Components/HomeHero"));
 const About = lazy(() => import("../../Components/AboutHome"));
 const Brands = lazy(() => import("../../Components/Brands"));
+const Footer = lazy(() => import("../../Footer"));
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
         <About />
         <Brands />
         <Work />
+        <Footer />
       </Suspense>
     </>
   );
